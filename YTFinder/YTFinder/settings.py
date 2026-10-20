@@ -20,7 +20,7 @@ YOUTUBE_API_KEY=os.environ.get("YOUTUBE_API_KEY", "")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["focus-finder-1.onrender.com", "localhost", "127.0.0.1"]
 
 
 
