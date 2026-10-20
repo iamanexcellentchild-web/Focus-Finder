@@ -7,5 +7,7 @@ npm run build
 cd ..
 
 pip install -r requirements.txt
-python manage.py collectstatic --no-input
-python manage.py migrate
+
+cd YTFinder
+    python manage.py collectstatic --no-input
+    python manage.py migrate
